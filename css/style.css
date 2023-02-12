@@ -1,0 +1,106 @@
+header {
+    background-color: #2c3e50;
+}
+
+header .nav-link {
+    color: white;
+}
+
+#a-brand {
+    font-weight: bolder;
+}
+
+#hero {
+    background-color: #1abc9c;
+    color: white;
+}
+
+#hero img {
+    max-width: 250px;
+}
+
+.star-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.star-icon::before {
+    display: block;
+    content: '';
+    height: 5px;
+    width: 10%;
+    background-color: currentColor;
+    margin-right: 25px;
+}
+
+.star-icon::after {
+    display: block;
+    content: '';
+    height: 5px;
+    width: 10%;
+    background-color: currentColor;
+    margin-left: 25px;
+}
+
+.portfolio-image img {
+    width: 100%;
+}
+
+#about {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.about-freelancer {
+    text-align: left;
+}
+#about .btn {
+    display: block;
+    background-color: #1abc9c;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 30%;
+}
+
+#contact .form-control {
+    border: none;
+    border-bottom: solid 1px lightgray;
+    border-radius: 0%;
+}
+
+#contact .btn {
+    background-color: #1abc9c;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #3a546d;
+    color: white;
+}
+
+.social-circle {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 35px;
+    height: 35px;
+}
+
+.social-circle a {
+    color: white;
+}
+
+footer a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: #2c3e50;
+}
